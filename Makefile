@@ -24,4 +24,4 @@ Sources/OrderedSet/OrderedSet.swift:
 Tests/OrderedSetTests/OrderedSetTests.swift:
 	@echo $@
 	@echo "// From $(TEST_URL)" > $@
-	@curl -L $(TEST_URL) >> $@
+	@curl -L $(TEST_URL) | sed 's/TSCBasic/OrderedSet/g' | sed '/^typealias/ d'  >> $@
