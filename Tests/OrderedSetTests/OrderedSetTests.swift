@@ -11,9 +11,8 @@
 
 import XCTest
 
-import TSCBasic
+import OrderedSet
 
-typealias OrderedSet = TSCBasic.OrderedSet
 
 class OrderedSetTests: XCTestCase {
     func testBasics() {

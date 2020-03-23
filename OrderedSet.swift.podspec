@@ -1,6 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name = 'OrderedSet.swift'
-  spec.version = '0.1.0'
+  spec.module_name = 'OrderedSet'
+  spec.version = '0.1.1'
   spec.summary = 'Ordered Set implementation for Swift'
   spec.homepage = 'https://github.com/cocodelabs/OrderedSet'
   spec.license = { :type => 'CUSTOM', :file => 'LICENSE.txt' }

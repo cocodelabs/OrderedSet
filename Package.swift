@@ -6,13 +6,13 @@ let package = Package(
   products: [
     .library(
         name: "OrderedSet",
-        targets: ["TSCBasic"]),
+        targets: ["OrderedSet"]),
   ],
   targets: [
-    .target(name: "TSCBasic", path: "Sources/OrderedSet"),
+    .target(name: "OrderedSet", path: "Sources/OrderedSet"),
     .testTarget(
       name: "OrderedSetTests",
-      dependencies: ["TSCBasic"]
+      dependencies: ["OrderedSet"]
     ),
   ]
 )
